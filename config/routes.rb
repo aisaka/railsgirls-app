@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'status/index'
+  get 'status', to: 'status#index'
   get 'pages/info'
 
   root to: redirect('/ideas')
